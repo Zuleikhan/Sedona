@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #f2f2f2;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin:-1px;
+    border: 0;
+    padding: 0;
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
+}
+
+.main-header-logo {
+     position: absolute;
+     left: calc(50% - 68px);
+ }
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.site-navigation li {
+    width: 239px;
+    height: 56px;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+
+.site-navigation li:nth-child(2) {
+    margin-right: 250px;
+}
+
+.site-navigation a {
+    color: #000000;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.intro-description {
+    background-image: url("../img/background.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center -55px;
+    text-align: center;
+}
+
+.intro-description img {
+    margin-top: 75px;
+    padding-bottom: 18px;
+}
+
+.polygon {
+    margin-bottom: 60px;
+    width: 1200px;
+    height: 57px;
+
+    background-image: url("../img/polygon.svg");
+    background-size: cover;
+}
+
+.main-title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Списое преимуществ*/
+
+.advantages-title {
+    margin: 0;
+    margin-bottom: 50px;
+
+    line-height: 26px;
+    text-align: center;
+}
+
+.advantages-list {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    list-style: none;
+}
+
+.advantages-list-main {
+    color: #ffffff;
+}
+
+.advantages-list-wrapper {
+    display: flex;
+    height: 256px;
+}
+
+.advantages-list {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-list h3 {
+    margin: 0 0 25px;
+    font-size: 21px;
+}
+
+.advantages-list-main-wrapper {
+    box-sizing: border-box;
+    padding: 45px;
+    text-align: center;
+    background-color: #81b3d2;
+    width: 400px;
+    min-height: 256px;
+}
+
+.number {
+    display: block;
+    margin-bottom: 23px;
+}
+
+.advantages-list-main-wrapper p {
+    margin: 0;
+}
+
+.advantages-list-more {
+    list-style: none;
+    display: flex;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-list-more-item {
+    margin-bottom: 70px;
+    padding-top: 160px;
+    width: 400px;
+
+    text-align: center;
+}
+
+.accommodation {
+    background-image: url("../img/accommodation.svg");
+    background-repeat: no-repeat;
+    background-position: center 60px;
+}
+
+.food {
+    background-image: url("../img/food.svg");
+    background-repeat: no-repeat;
+    background-position: center 60px;
+}
+
+.souvenirs {
+    background-image: url("../img/souvenirs.svg");
+    background-repeat: no-repeat;
+    background-position: center 60px;
+}
+
+.advantages-list-grey {
+    padding-top: 45px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 256px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.advantages-list-grey p {
+    margin: 0;
+}
+
+.booking {
+    position: relative;
+}
+
+.booking-main-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.booking-title {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.booking-button {
+    box-sizing: border-box;
+    width: 568px;
+    height: 85px;
+
+    color: #ffffff;
+    vertical-align: middle;
+    font: inherit;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border: none;
+    background-color: #766357;
+}
+
+.form-wrapper {
+    position: absolute;
+
+}
+
+.booking-form {
+    width: 568px;
+    height: 395px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.booking-item {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+
+.footer-wrapper {
+    position: relative;
+}
